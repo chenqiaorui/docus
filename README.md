@@ -5,6 +5,8 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ### Installation
 
 ```
+$ npm install -g yarn
+
 $ yarn
 ```
 
@@ -27,6 +29,8 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 Using SSH:
+
+如出现`无法将“GIT_USER=<user>”项识别为 cmdlet、函数、脚本文件或可运行程序的名称`，请使用git 客户端执行。
 
 ```
 $ USE_SSH=true yarn deploy

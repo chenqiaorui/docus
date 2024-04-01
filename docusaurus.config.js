@@ -20,9 +20,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rickychen', // Usually your GitHub org/user name.
-  projectName: 'Docus', // Usually your repo name.
-
+  organizationName: 'chenqiaorui', // Usually your GitHub org/user name.  需要和你的github用户名一致
+  projectName: 'docus', // Usually your repo name.  你的仓库名称
+  deploymentBranch: 'gh-pages',   // 部署git pages 使用到的分支
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
